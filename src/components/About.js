@@ -52,11 +52,11 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-gradient 
                 mb-2'>
                   {
-                    inView? <CountUp start={0} end={13} duration={3} /> :
+                    inView? <CountUp start={0.1} end={1} duration={3} /> :
                     null}
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
-                  Years of <br />
+                  Year of <br />
                   Experience
                 </div>
               </div>
@@ -64,9 +64,9 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-gradient 
                 mb-2'>
                   {
-                    inView? <CountUp start={0} end={15} duration={3} /> :
+                    inView? <CountUp start={0} end={3} duration={2} /> :
                     null}
-                    k+
+                    +
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Projects <br />
@@ -77,9 +77,9 @@ const About = () => {
                 <div className='text-[40px] font-tertiary text-gradient 
                 mb-2'>
                   {
-                    inView? <CountUp start={0} end={12} duration={3} /> :
+                    inView? <CountUp start={0} end={5} duration={3} /> :
                     null}
-                    k+
+                    +
                 </div>
                 <div className='font-primary text-sm tracking-[2px]'>
                   Satisfied <br />
